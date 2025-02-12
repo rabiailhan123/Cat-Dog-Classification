@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 50px;
+        }
+        .result-box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #333;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-box">
+        <h1>Classification Result</h1>
+        <img src="{{ url_for('send_file', filename=filename) }}" alt="Uploaded Image">
+        <h2>Result: {{ result }}</h2>
+        <a href="/">Upload Another Image</a>
+    </div>
+    
+</body>
+</html>

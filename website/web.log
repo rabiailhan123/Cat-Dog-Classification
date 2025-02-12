@@ -1,0 +1,8 @@
+2025-02-11 10:50:01,915 - __main__ - INFO - Test log: Logging setup complete.
+2025-02-11 10:50:02,673 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-11 10:50:02,692 - __main__ - INFO - Model loaded successfully from '../models_4/cat_dog_prediction_with_basic_cnn_epoch_11.h5'
+2025-02-11 10:50:02,695 - __main__ - INFO - Starting Flask application...
+2025-02-11 10:50:02,716 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 10:50:02,717 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-02-11 10:51:04,682 - __main__ - INFO - Application has started successfully.
